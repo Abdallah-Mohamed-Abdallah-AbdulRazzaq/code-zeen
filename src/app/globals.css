@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* يمكنك هنا وضع متغيرات إضافية لو احتجت */
+}
+
+body {
+  /* نستخدم اللون الأسود الرمادي كخلفية افتراضية ليعطي طابعاً فخماً مع الأخضر */
+  /* أو الأبيض حسب تفضيلك، هنا سأجعله Dark Theme افتراضياً بناءً على الألوان */
+  @apply bg-neutral-800 text-white font-barlow; 
+}
+
+/* Scrollbar Customization (Optional for clean look) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-neutral-700;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-700 rounded-full;
+}

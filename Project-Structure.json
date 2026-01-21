@@ -1,0 +1,314 @@
+{
+  "name": "code-zeen",
+  "path": "e:\\Work and Projects\\Code Zeen\\Front-end\\code-zeen",
+  "type": "directory",
+  "children": [
+    {
+      "name": "public",
+      "type": "folder",
+      "icon": "📁",
+      "children": [
+        {
+          "name": "fonts",
+          "type": "folder",
+          "icon": "📁"
+        },
+        {
+          "name": "images",
+          "type": "folder",
+          "icon": "📁",
+          "children": [
+            {
+              "name": "logos",
+              "type": "folder",
+              "icon": "📁"
+            },
+            {
+              "name": "abstract-design.png",
+              "type": "file",
+              "icon": "🖼️"
+            },
+            {
+              "name": "abstract-design.svg",
+              "type": "file",
+              "icon": "🖼️"
+            }
+          ]
+        },
+        {
+          "name": "locales",
+          "type": "folder",
+          "icon": "📁",
+          "children": [
+            {
+              "name": "ar.json",
+              "type": "file",
+              "icon": "⚙️"
+            },
+            {
+              "name": "en.json",
+              "type": "file",
+              "icon": "⚙️"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "type": "folder",
+      "icon": "📁",
+      "children": [
+        {
+          "name": "app",
+          "type": "folder",
+          "icon": "📁",
+          "children": [
+            {
+              "name": "[lang]",
+              "type": "folder",
+              "icon": "📁",
+              "children": [
+                {
+                  "name": "about",
+                  "type": "folder",
+                  "icon": "📁",
+                  "children": [
+                    {
+                      "name": "page.tsx",
+                      "type": "file",
+                      "icon": "⚛️"
+                    }
+                  ]
+                },
+                {
+                  "name": "careers",
+                  "type": "folder",
+                  "icon": "📁",
+                  "children": [
+                    {
+                      "name": "page.tsx",
+                      "type": "file",
+                      "icon": "⚛️"
+                    }
+                  ]
+                },
+                {
+                  "name": "process",
+                  "type": "folder",
+                  "icon": "📁",
+                  "children": [
+                    {
+                      "name": "page.tsx",
+                      "type": "file",
+                      "icon": "⚛️"
+                    }
+                  ]
+                },
+                {
+                  "name": "services",
+                  "type": "folder",
+                  "icon": "📁",
+                  "children": [
+                    {
+                      "name": "page.tsx",
+                      "type": "file",
+                      "icon": "⚛️"
+                    }
+                  ]
+                },
+                {
+                  "name": "work",
+                  "type": "folder",
+                  "icon": "📁",
+                  "children": [
+                    {
+                      "name": "page.tsx",
+                      "type": "file",
+                      "icon": "⚛️"
+                    }
+                  ]
+                },
+                {
+                  "name": "layout.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                },
+                {
+                  "name": "page.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                }
+              ]
+            },
+            {
+              "name": "globals.css",
+              "type": "file",
+              "icon": "🎨"
+            },
+            {
+              "name": "layout.tsx",
+              "type": "file",
+              "icon": "⚛️"
+            }
+          ]
+        },
+        {
+          "name": "components",
+          "type": "folder",
+          "icon": "📁",
+          "children": [
+            {
+              "name": "common",
+              "type": "folder",
+              "icon": "📁",
+              "children": [
+                {
+                  "name": "Footer.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                },
+                {
+                  "name": "Navbar.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                }
+              ]
+            },
+            {
+              "name": "home",
+              "type": "folder",
+              "icon": "📁",
+              "children": [
+                {
+                  "name": "Contact.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                },
+                {
+                  "name": "FAQ.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                },
+                {
+                  "name": "Hero.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                },
+                {
+                  "name": "Services.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                },
+                {
+                  "name": "Testimonials.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                },
+                {
+                  "name": "TrustedBy.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                },
+                {
+                  "name": "WhyChooseUs.tsx",
+                  "type": "file",
+                  "icon": "⚛️"
+                }
+              ]
+            },
+            {
+              "name": "services",
+              "type": "folder",
+              "icon": "📁"
+            },
+            {
+              "name": "ui",
+              "type": "folder",
+              "icon": "📁"
+            }
+          ]
+        },
+        {
+          "name": "lib",
+          "type": "folder",
+          "icon": "📁",
+          "children": [
+            {
+              "name": "dictionary.ts",
+              "type": "file",
+              "icon": "📘"
+            },
+            {
+              "name": "i18n-config.ts",
+              "type": "file",
+              "icon": "📘"
+            },
+            {
+              "name": "utils.ts",
+              "type": "file",
+              "icon": "📘"
+            }
+          ]
+        },
+        {
+          "name": "styles",
+          "type": "folder",
+          "icon": "📁"
+        },
+        {
+          "name": "types",
+          "type": "folder",
+          "icon": "📁"
+        },
+        {
+          "name": "middleware.ts",
+          "type": "file",
+          "icon": "📘"
+        }
+      ]
+    },
+    {
+      "name": "Project-Structure.md",
+      "type": "file",
+      "icon": "📝"
+    },
+    {
+      "name": "next-env.d.ts",
+      "type": "file",
+      "icon": "📘"
+    },
+    {
+      "name": "next.config.js",
+      "type": "file",
+      "icon": "📜"
+    },
+    {
+      "name": "package-lock.json",
+      "type": "file",
+      "icon": "⚙️"
+    },
+    {
+      "name": "package.json",
+      "type": "file",
+      "icon": "📦"
+    },
+    {
+      "name": "tailwind.config.ts",
+      "type": "file",
+      "icon": "📘"
+    },
+    {
+      "name": "tsconfig.json",
+      "type": "file",
+      "icon": "⚙️"
+    }
+  ],
+  "metadata": {
+    "generated": "2026-01-21T00:19:24.176Z",
+    "generator": "FileTree Pro Extension",
+    "version": "0.2.0",
+    "showIcons": true,
+    "maxDepth": 10
+  }
+}
