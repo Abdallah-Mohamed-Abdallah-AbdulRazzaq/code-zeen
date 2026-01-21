@@ -19,12 +19,141 @@
           "icon": "📁",
           "children": [
             {
-              "name": "logos",
+              "name": "avatars",
               "type": "folder",
-              "icon": "📁"
+              "icon": "📁",
+              "children": [
+                {
+                  "name": "Profile-1.png",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Profile-2.png",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Profile-3.png",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Profile-4.png",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Profile-5.png",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Profile-6.png",
+                  "type": "file",
+                  "icon": "🖼️"
+                }
+              ]
             },
             {
-              "name": "abstract-design.png",
+              "name": "logos",
+              "type": "folder",
+              "icon": "📁",
+              "children": [
+                {
+                  "name": "Adobe.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Amazon.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Services-1.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Services-2.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Services-3.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Slack.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Spotify.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "WhyChooseUs-1.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "WhyChooseUs-2.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "WhyChooseUs-3.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "WhyChooseUs-4.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Zapier.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                },
+                {
+                  "name": "Zoom.svg",
+                  "type": "file",
+                  "icon": "🖼️"
+                }
+              ]
+            },
+            {
+              "name": "Abstract Design.png",
+              "type": "file",
+              "icon": "🖼️"
+            },
+            {
+              "name": "Contact Section.png",
+              "type": "file",
+              "icon": "🖼️"
+            },
+            {
+              "name": "FAQ Section.png",
+              "type": "file",
+              "icon": "🖼️"
+            },
+            {
+              "name": "Our Services Section.png",
+              "type": "file",
+              "icon": "🖼️"
+            },
+            {
+              "name": "Testimonials Section.png",
+              "type": "file",
+              "icon": "🖼️"
+            },
+            {
+              "name": "Why Choose US Section.png",
               "type": "file",
               "icon": "🖼️"
             },
@@ -145,11 +274,6 @@
               "name": "globals.css",
               "type": "file",
               "icon": "🎨"
-            },
-            {
-              "name": "layout.tsx",
-              "type": "file",
-              "icon": "⚛️"
             }
           ]
         },
@@ -269,6 +393,16 @@
       ]
     },
     {
+      "name": ".gitignore",
+      "type": "file",
+      "icon": "📁"
+    },
+    {
+      "name": "Project-Structure.json",
+      "type": "file",
+      "icon": "⚙️"
+    },
+    {
       "name": "Project-Structure.md",
       "type": "file",
       "icon": "📝"
@@ -294,6 +428,11 @@
       "icon": "📦"
     },
     {
+      "name": "postcss.config.js",
+      "type": "file",
+      "icon": "📜"
+    },
+    {
       "name": "tailwind.config.ts",
       "type": "file",
       "icon": "📘"
@@ -305,7 +444,7 @@
     }
   ],
   "metadata": {
-    "generated": "2026-01-21T00:19:24.176Z",
+    "generated": "2026-01-21T17:49:45.016Z",
     "generator": "FileTree Pro Extension",
     "version": "0.2.0",
     "showIcons": true,
