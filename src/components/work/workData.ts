@@ -4,13 +4,13 @@ export const workProjects = [
     category: "E-Commerce Platform for Fashion Hub",
     title: "Chic Boutique",
     description: "We developed a visually stunning and user-friendly e-commerce platform for Chic Boutique. The platform featured seamless product browsing, secure payment integration, and personalized recommendations.",
-    link: "https://www.youtube.com",
-    image: "/images/Image.png",
+    link: "https://www.chicboutique.com",
+    image: "/images/works/work-1.png",
     // --- بيانات إضافية لصفحة التفاصيل ---
     images: [
-      "/images/Image.png",
-      "/images/us3RHvx.png", // صور إضافية (مؤقتة للتجربة)
-      "/images/Screenshot 20ي25-12-31 191741.png",
+      "/images/works/work-1.png",
+      "/images/works/work-2.png", // صور إضافية (مؤقتة للتجربة)
+      "/images/works/work-3.png",
     ],
     client: "Chic Boutique Inc.",
     timeline: "3 Months",
