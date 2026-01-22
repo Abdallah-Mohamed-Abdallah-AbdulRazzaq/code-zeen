@@ -15,7 +15,7 @@ const config: Config = {
       colors: {
         // Absolute Colors
         white: "#FFFFFF",
-        black: "#000000",
+        black: "#0023153c",
 
         // Green Shades (Code Zeen Brand)
         // قمت بترتيبها من الأفتح للأغمق أو العكس حسب الاستخدام، 
@@ -41,7 +41,7 @@ const config: Config = {
           500: "#4C4C4D",
           600: "#333333",
           700: "#262626",
-          800: "#191919", // Darkest Grey
+          800: "#0023153c", // Darkest Grey
         },
       },
 // أضف إعدادات الأنيميشن هنا 👇
