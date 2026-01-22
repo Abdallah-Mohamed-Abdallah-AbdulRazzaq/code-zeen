@@ -1,8 +1,22 @@
+import ProcessHero from "@/components/process/ProcessHero";
+import ProcessSteps from "@/components/process/ProcessSteps"; // Import New Component
+import Contact from "@/components/home/Contact";
+
 export default function ProcessPage() {
   return (
-    <div className="container mx-auto px-4 py-20 flex flex-col items-center">
-      <h1 className="text-white text-4xl md:text-6xl font-barlow font-bold mb-6">Our Process</h1>
-      <p className="text-neutral-200 text-lg">Our process page content goes here.</p>
+    <div className="flex flex-col items-center w-full bg-neutral-800 pb-0">
+      
+      {/* 1. Process Hero */}
+      <ProcessHero />
+
+      {/* 2. Process Steps */}
+      <ProcessSteps />
+
+      {/* 3. CTA Section */}
+      <div className="w-full mt-20 mb-20">
+         <Contact />
+      </div>
+
     </div>
   );
 }
