@@ -1,8 +1,24 @@
+import CareersHero from "@/components/careers/CareersHero";
+import CareersBenefits from "@/components/careers/CareersBenefits";
+import CareersOpenings from "@/components/careers/CareersOpenings"; // Import Section 3
+import AboutCTA from "@/components/about/AboutCTA";
+
 export default function CareersPage() {
   return (
-    <div className="container mx-auto px-4 py-20 flex flex-col items-center">
-      <h1 className="text-white text-4xl md:text-6xl font-barlow font-bold mb-6">Careers</h1>
-      <p className="text-neutral-200 text-lg">Careers page content goes here.</p>
+    <div className="flex flex-col items-center w-full bg-neutral-800 pb-0">
+      
+      {/* 1. Careers Hero */}
+      <CareersHero />
+
+      {/* 2. Benefits Section */}
+      <CareersBenefits />
+
+      {/* 3. Job Openings Section */}
+      <CareersOpenings />
+
+      {/* 4. CTA Section */}
+      <AboutCTA />
+
     </div>
   );
 }
