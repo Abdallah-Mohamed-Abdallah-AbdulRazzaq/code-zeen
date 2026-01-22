@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import Link from "next/link";
 export default function Contact() {
   // State for form interactions
   const [budget, setBudget] = useState(5000); // Default budget value
@@ -67,11 +67,15 @@ export default function Contact() {
             </div>
 
             {/* Start Project Button */}
-            <button className="flex px-[34px] py-[18px] items-center gap-2 rounded-lg bg-brand-700 hover:bg-brand-400 transition-colors shadow-lg">
+            {/* 2. استبدال button بـ Link وإضافة href */}
+            <Link 
+                href="/contact" 
+                className="flex px-[34px] py-[18px] items-center gap-2 rounded-lg bg-brand-700 hover:bg-brand-400 transition-colors shadow-lg"
+            >
                 <span className="text-neutral-800 font-barlow text-lg font-medium leading-[150%]">
                     Start Project
                 </span>
-            </button>
+            </Link>
         </div>
 
         {/* ---------------- 2. Form Container ---------------- */}
